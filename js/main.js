@@ -13,3 +13,9 @@ function translate(){
 }
 
 translate();
+
+function imprime(){
+	var impEmail = document.getElementById('inputEmail').value;
+	var impPassword = document.getElementById('inputPassword').value;
+		alert("El correo es: " + impEmail + " " + "La contraseña es: " + impPassword);
+}
